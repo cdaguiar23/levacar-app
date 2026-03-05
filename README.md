@@ -73,14 +73,21 @@ Este projeto está configurado para builds via **EAS (Expo Application Services)
 
 Para gerar um novo APK de teste:
 ```bash
-eas build -p android --profile preview
+npm run reset-project
 ```
 
----
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## 📄 Licença
+## Learn more
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+To learn more about developing your project with Expo, look at the following resources:
 
----
-Desenvolvido com 💙 para facilitar a vida de quem ama seu carro.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
